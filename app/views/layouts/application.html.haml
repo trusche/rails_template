@@ -6,5 +6,15 @@
     =# javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
   %body
+    %header#top.navbar.navbar-static-top
+      .container
+        .navbar-header
+          = link_to "Rails Template", root_url, class: 'navbar-brand'
+        %ul.nav.navbar-nav.navbar-right
+          - if current_user
+            %li= link_to 'Sign Out', user_session_path, method: :delete
+          - else
+            %li= link_to 'Sign In', new_user_session_path
+
     .container
       = yield
