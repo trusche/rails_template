@@ -17,3 +17,6 @@
 
 # Ignore some configuration files that will be linked to in production instead
 config/database.yml
+
+# Ignore developer specific configuration
+.rspec
