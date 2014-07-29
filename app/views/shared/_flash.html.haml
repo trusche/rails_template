@@ -1,0 +1,4 @@
+- unless flash.empty?
+  - flash.each do |level, msg|
+    %div.alert{ class: "alert-#{level}", role: "alert" }= BlueCloth.new(msg).to_html.html_safe
+  - flash.clear

@@ -18,6 +18,8 @@ Create a user:
     > user.confirm!
 
 
+* Turbo-links disabled
+
 #### Devise
 
 * Replaced `devise_error_messages!` with inline error messages using the [dynamic_form](https://github.com/rails/dynamic_form)

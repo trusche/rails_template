@@ -31,6 +31,7 @@ GEM
     autoprefixer-rails (2.1.1.20140710)
       execjs
     bcrypt (3.1.7)
+    bluecloth (2.2.0)
     bootstrap-sass (3.2.0.0)
       sass (~> 3.2)
     builder (3.2.2)
@@ -209,6 +210,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   bcrypt (~> 3.1.7)
+  bluecloth
   bootstrap-sass (~> 3.2.0)
   cancancan
   capistrano-rails
