@@ -17,8 +17,9 @@ Create a user:
     > user = User.create!(email: "foo@example.com", password: "test1234")
     > user.confirm!
 
-
-* Turbo-links disabled
+#### Miscelleanous
+* Turbo-links are disabled
+* Flash messages are markdown enabled with [BlueCloth](https://github.com/ged/bluecloth)
 
 #### Devise
 
