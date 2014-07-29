@@ -9,3 +9,10 @@ My Rails app template.
 * MySQL
 * Devise
 * CanCanCan
+* Twitter Bootstrap
+
+
+Create a user:
+
+    > user = User.create!(email: "foo@example.com", password: "test1234")
+    > user.confirm!

@@ -12,7 +12,7 @@
           = link_to "Rails Template", root_url, class: 'navbar-brand'
         %ul.nav.navbar-nav.navbar-right
           - if current_user
-            %li= link_to 'Sign Out', user_session_path, method: :delete
+            %li= link_to 'Sign Out', user_session_path
           - else
             %li= link_to 'Sign In', new_user_session_path
 
