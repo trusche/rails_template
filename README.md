@@ -1,6 +1,6 @@
 ### Rails Template
 
-A basic Rails app with authentication and bootstrap styling.
+A basic Rails starter app with authentication and bootstrap styling.
 
 ####  Gems
 
