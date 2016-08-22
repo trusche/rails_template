@@ -82,6 +82,7 @@ GEM
       railties (>= 4.1.0, < 5.1)
       responders
       warden (~> 1.2.3)
+    devise-i18n (1.1.0)
     diff-lcs (1.2.5)
     dynamic_form (1.1.4)
     erubis (2.7.0)
@@ -289,6 +290,7 @@ DEPENDENCIES
   capistrano-rails
   coffee-rails (~> 4.2)
   devise
+  devise-i18n
   dynamic_form
   exception_notification
   factory_girl_rails

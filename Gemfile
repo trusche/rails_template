@@ -13,7 +13,6 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'redis'
 
-
 gem 'mysql2'
 gem 'haml-rails'
 gem 'bootstrap-sass'
@@ -23,6 +22,7 @@ gem 'kaminari' # pagination
 
 # Security
 gem 'devise' # authentication
+gem 'devise-i18n'
 gem 'cancancan' # authorization
 
 # Miscellaneous
@@ -30,7 +30,6 @@ gem 'figaro' # application configuration
 gem 'dynamic_form'
 gem 'bluecloth' # markdown
 gem 'exception_notification' # what it says
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

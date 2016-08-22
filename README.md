@@ -21,5 +21,18 @@ A basic Rails starter app with authentication and bootstrap styling.
 * Turbo-links are disabled; they suck for development.
 * Flash messages are markdown enabled with [BlueCloth](https://github.com/ged/bluecloth).
 
+##### Usage
+
+```
+git clone https://github.com/trusche/rails_template your_app
+cd your_app
+rm -rf .git/
+cp config/database.yml{.dist,} # edit as necessary
+cp config/secret.yml{.dist,}   # ditto
+bundle install
+bundle exec rake db:create
+bundle exec rake db:migrate
+bundle exer rails s # voila!
+```
 
 
